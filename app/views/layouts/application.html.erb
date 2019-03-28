@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <% if session[:user_id] %>
+      s
+    <% end %>
+
     <section class="section">
       <div class="container">
         <%= yield %>
